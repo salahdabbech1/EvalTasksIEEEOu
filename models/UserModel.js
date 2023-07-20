@@ -12,6 +12,7 @@ const UserSchema = new Schema({
   email: { type: String, required: true },
   password: String,
   fullName: String,
+  age: Number,
 },
   {
     toJSON: {
